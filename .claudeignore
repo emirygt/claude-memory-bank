@@ -1,0 +1,71 @@
+# Versiyon kontrolü
+.git/
+.gitignore
+
+# Bağımlılıklar
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Test & Coverage
+tests/
+test_*.py
+*_test.py
+htmlcov/
+.coverage
+coverage.xml
+
+# Migrations (Claude okumak zorunda değil)
+alembic/versions/
+migrations/
+
+# Binary & büyük dosyalar
+*.dwg
+*.dxf
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.ico
+*.woff
+*.woff2
+*.ttf
+
+# Ortam & secret
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Log & geçici
+*.log
+logs/
+tmp/
+.cache/
+.DS_Store
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Dokümantasyon (gerekmedikçe)
+docs/
+*.md
+!CLAUDE.md
+!.memory/*.md
+
+# Lock dosyaları
+package-lock.json
+yarn.lock
+poetry.lock
+Pipfile.lock
